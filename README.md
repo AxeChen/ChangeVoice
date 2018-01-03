@@ -293,7 +293,7 @@ new Thread(new Runnable() {
 这个path应该是sdcard保存音频文件的路径。可自由跟换。
 
 3、合成的效果并不好  
-这个只是改了几个默认的效果，如果要做的更加准确需要自定义(音频)dsp。
+这个只是改了几个默认的效果，如果要做的更加准确需要自定义(音频)dsp。fmod中带的方法。
 ```
-createDSP
+system->createDSP
 ```
