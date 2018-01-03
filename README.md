@@ -1,3 +1,5 @@
+
+![布局](https://note.youdao.com/yws/public/resource/f5121682d839355f293abfd5dec29e9d/xmlnote/78FBEF408F7B41D4BE93F06120015739/9040)
 #### NDK实战
 为了学NDK编程，学了C/C++。学了cmakelists的配置。学了如何调用第三方的so和自己如何生成so库。那么第一个NDK实战就做起来吧。把前面的知识做一个综合。
 
