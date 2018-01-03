@@ -39,6 +39,8 @@ JNIEXPORT void JNICALL Java_com_mg_axechen_changevoice_VoiceTools_changeVoice
     const char *path = jniEnv->GetStringUTFChars(jstring, NULL);
     system->createSound(path, FMOD_DEFAULT, NULL, &sound);
 
+    system->createDSP()
+
     try {
         switch (mode) {
             case MODE_NORMAL:

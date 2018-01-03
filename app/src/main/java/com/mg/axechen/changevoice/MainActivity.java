@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void mFix(View view) {
+    public void startChange(View view) {
         String path = Environment.getExternalStorageDirectory().getPath()+File.separator+"voice.wav";
         Log.i("getPath",path);
         switch (view.getId()) {

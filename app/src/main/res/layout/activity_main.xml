@@ -26,7 +26,7 @@
                     android:id="@+id/btn_normal"
 	                style="@style/AudioImgStyle"
 	                android:src="@mipmap/record"
-	                android:onClick="mFix"/>
+	                android:onClick="startChange"/>
                 <TextView 
                     style="@style/AudioTextStyle"
                     android:text="原声"/>
@@ -41,7 +41,7 @@
                     android:id="@+id/btn_luoli"
 	                style="@style/AudioImgStyle"
 	                android:src="@mipmap/luoli"
-	                android:onClick="mFix"/>
+	                android:onClick="startChange"/>
                 <TextView 
                     style="@style/AudioTextStyle"
                     android:text="萝莉"/>
@@ -57,7 +57,7 @@
                     android:id="@+id/btn_dashu"
 	                style="@style/AudioImgStyle"
 	                android:src="@mipmap/dashu"
-	                android:onClick="mFix"/>
+	                android:onClick="startChange"/>
                 <TextView 
                     style="@style/AudioTextStyle"
                     android:text="大叔"/>
@@ -79,7 +79,7 @@
                     android:id="@+id/btn_jingsong"
 	                style="@style/AudioImgStyle"
 	                android:src="@mipmap/jingsong"
-	                android:onClick="mFix"/>
+	                android:onClick="startChange"/>
                 <TextView 
                     style="@style/AudioTextStyle"
                     android:text="惊悚"/>
@@ -94,7 +94,7 @@
                     android:id="@+id/btn_gaoguai"
 	                style="@style/AudioImgStyle"
 	                android:src="@mipmap/gaoguai"
-	                android:onClick="mFix"/>
+	                android:onClick="startChange"/>
                 <TextView 
                     style="@style/AudioTextStyle"
                     android:text="搞怪"/>
@@ -109,7 +109,7 @@
                     android:id="@+id/btn_kongling"
 	                style="@style/AudioImgStyle"
 	                android:src="@mipmap/kongling" 
-	                android:onClick="mFix"/>
+	                android:onClick="startChange"/>
                 <TextView 
                     style="@style/AudioTextStyle"
                     android:text="空灵"/>
