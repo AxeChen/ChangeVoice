@@ -12,7 +12,7 @@
         android:paddingBottom="20dp" >
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="20dp">
@@ -20,6 +20,7 @@
             <LinearLayout 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/btn_normal"
@@ -34,6 +35,7 @@
             <LinearLayout 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/btn_luoli"
@@ -49,6 +51,7 @@
             <LinearLayout 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/btn_dashu"
@@ -62,7 +65,7 @@
         </LinearLayout>
         
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="20dp">
@@ -70,6 +73,7 @@
             <LinearLayout 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/btn_jingsong"
@@ -84,6 +88,7 @@
             <LinearLayout 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/btn_gaoguai"
@@ -98,6 +103,7 @@
             <LinearLayout 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/btn_kongling"
